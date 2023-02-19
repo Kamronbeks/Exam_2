@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/compressed/home.min.css">
+    <link rel="stylesheet" href="./css/compressed/global.min.css">
+</head>
+</head>
+<body>
+  <div id="loading">
+	<img src="./images/Spinner-1s-200px.gif" alt="">
+  </div>
+   <button id="backtop">
+    <a href="#">Up</a>
+   </button>
+   <header>
+    <header id="header">
+        <nav class="navbar navbar-expand-md bg-body-tertiary fixed-top" id="navbar">
+            <div class=" container  navbar-colos">
+                <a class="navbar-brand" href="./index.html"><img src="./images/Logo .svg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span ><img src="./images/navbar/hamburger.svg" alt=""></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./images/navbar/logo.png" alt=""></h5>
+                        <button type="button"  data-bs-dismiss="offcanvas" class="btn-close" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="./menu.html">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./news.html">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./about.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contact.html">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link login"  href="./restaruant.html">Log in</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="conteiner">
+            <div class="header__container">
+                <div class="header__container--left">
+                    <p>Chase the new Flavour</p>
+                    <h1>The key to Fine dining</h1>
+                    <span>Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus </span>
+                    <div class="btn__3">
+                        <button>Explore Menu</button>
+                    </div>
+                </div>
+                <div class="header__container--right">
+                    <img src="./images/home_top_img.png" alt="">
+                </div>
+            </div>
+        </div>
+   </header>
+   <main>
+    <section id="dishes">
+        <div class="container">
+          <div class="dishes__container">
+            <div class="dishes__cont--top">
+              <h3>Popular Dishes</h3>
+            </div>
+            <div class="dishes__cont--bottom">
+              <div id="custom-carousel" class="owl-carousel">
+                <div class="carousel__card">
+                  <div class="carousel__card--img">
+                    <img src="./images/shashlik-too.svg" alt="page" />
+                  </div>
+                  <div class="carousel__card--title">
+                    <p>Barbecue Shish kebab Shashlik Skewer</p>
+                    <div class="carousel__card--stars">
+                      <img src="./images/yulduzlar.svg" alt="page" />
+                    </div>
+                    <h6>$12.00</h6>
+                  </div>
+                </div>
+                <div class="carousel__card">
+                  <div class="carousel__card--img">
+                    <img src="./images/pizza.svg" alt="page" />
+                  </div>
+                  <div class="carousel__card--title">
+                    <p>Barbecue Shish kebab Shashlik Skewer</p>
+                    <div class="carousel__card--stars">
+                      <img src="./images/yulduzlar.svg" alt="page" />
+                    </div>
+                    <h6>$12.00</h6>
+                  </div>
+                </div>
+                <div class="carousel__card">
+                  <div class="carousel__card--img">
+                    <img src="./images/gamburger.svg" alt="page" />
+                  </div>
+                  <div class="carousel__card--title">
+                    <p>Barbecue Shish kebab Shashlik Skewer</p>
+                    <div class="carousel__card--stars">
+                      <img src="./images/yulduzlar.svg" alt="page" />
+                    </div>
+                    <h6>$12.00</h6>
+                  </div>
+                </div>
+                <div class="carousel__card">
+                  <div class="carousel__card--img">
+                    <img src="./images/shashlik-too.svg" alt="page" />
+                  </div>
+                  <div class="carousel__card--title">
+                    <p>Barbecue Shish kebab Shashlik Skewer</p>
+                    <div class="carousel__card--stars">
+                      <img src="./images/yulduzlar.svg" alt="page" />
+                    </div>
+                    <h6>$12.00</h6>
+                  </div>
+                </div>
+                <div class="carousel__card">
+                  <div class="carousel__card--img">
+                    <img src="./images/shashlik.svg" alt="page" />
+                  </div>
+                  <div class="carousel__card--title">
+                    <p>Barbecue Shish kebab Shashlik Skewer</p>
+                    <div class="carousel__card--stars">
+                      <img src="./images/yulduzlar.svg" alt="page" />
+                    </div>
+                    <h6>$12.00</h6>
+                  </div>
+                </div>
+                <div class="carousel__card">
+                  <div class="carousel__card--img">
+                    <img src="./images/pizza.svg" alt="page" />
+                  </div>
+                  <div class="carousel__card--title">
+                    <p>Barbecue Shish kebab Shashlik Skewer</p>
+                    <div class="carousel__card--stars">
+                      <img src="./images/yulduzlar.svg" alt="page" />
+                    </div>
+                    <h6>$12.00</h6>
+                  </div>
+                </div>
+                <div class="carousel__card">
+                  <div class="carousel__card--img">
+                    <img src="./images/gamburger.svg" alt="page" />
+                  </div>
+                  <div class="carousel__card--title">
+                    <p>Barbecue Shish kebab Shashlik Skewer</p>
+                    <div class="carousel__card--stars">
+                      <img src="./images/yulduzlar.svg" alt="page" />
+                    </div>
+                    <h6>$12.00</h6>
+                  </div>
+                </div>
+                <div class="carousel__card">
+                    <div class="carousel__card--img">
+                        <img src="./images/pizza.svg" alt="page" />
+                      </div>
+                      <div class="carousel__card--title">
+                        <p>Barbecue Shish kebab Shashlik Skewer</p>
+                        <div class="carousel__card--stars">
+                          <img src="./images/yulduzlar.svg" alt="page" />
+                        </div>
+                        <h6>$12.00</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="qaychi">
+                  <img src="./images/qaychi.svg" alt="page" />
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="pack">
+            <div class="container">
+                <div class="menu__conatiner">
+                    <div class="menu__container--top">
+                        <h1>Our Regular Menu Pack</h1>
+                    </div>
+                </div>
+                <div class="menu__container--bottom">
+    <div class="ap-tab">
+      <ul class="ap-tab-list">
+        <li class="ap-tab-item"><a class="ap-tab-link" href="#">All</a></li>
+        <li class="ap-tab-item"><a class="ap-tab-link" href="#">Shawarma</a></li>
+        <li class="ap-tab-item"><a class="ap-tab-link" href="#">Turk Kebab</a></li>
+        <li class="ap-tab-item"><a class="ap-tab-link" href="#">Hamburger Kebab</a></li>
+        <li class="ap-tab-item"><a class="ap-tab-link" href="#">Doner kebab</a></li>
+        <li class="ap-tab-item"><a class="ap-tab-link" href="#">Shish kebab</a></li>
+        <li class="ap-tab-item"><a class="ap-tab-link" href="#">French fries Pizza</a></li>
+        <li class="ap-tab-item"><a class="ap-tab-link" href="#">Desserts</a></li>
+      </ul>
+    </div>
+    <div class="ap-tab-container">
+      <div class="ap-tab-content">
+        <div class="card__box">
+            <div class="card__box--items">
+                <div class="card__box--items-img">
+                    <img src="./images/shashlik too too.svg" alt="">
+                </div>
+                <div class="card__box--items-content">
+                    <p>Barbecue Shish kebab Shashlik Skewer</p>
+                    <h4>$12.00</h4>
+                </div>
+            </div>
+            <div class="card__box--items">
+                <div class="card__box--items-img">
+                    <img src="./images/shashlik-too.svg" alt="">
+                </div>
+                <div class="card__box--items-content">
+                    <p>Barbecue Shish kebab Shashlik Skewer</p>
+                    <h4>$12.00</h4>
+                </div>
+            </div>
+            <div class="card__box--items">
+                <div class="card__box--items-img">
+                    <img src="./images/Lavash.svg" alt="">
+                </div>
+                <div class="card__box--items-content">
+                    <p>Barbecue Shish kebab Shashlik Skewer</p>
+                    <h4>$12.00</h4>
+                </div>
+            </div>
+            <div class="card__box--items">
+                <div class="card__box--items-img">
+                    <img src="./images/Lanchbox 2.svg" alt="">
+                </div>
+                <div class="card__box--items-content">
+                    <p>Barbecue Shish kebab Shashlik Skewer</p>
+                    <h4>$12.00</h4>
+                </div>
+            </div>
+            <div class="card__box--items">
+                <div class="card__box--items-img">
+                    <img src="./images/pizza.svg" alt="">
+                </div>
+                <div class="card__box--items-content">
+                    <p>Barbecue Shish kebab Shashlik Skewer</p>
+                    <h4>$12.00</h4>
+                </div>
+            </div>
+            <div class="card__box--items">
+                <div class="card__box--items-img">
+                    <img src="./images/Sendwich.svg" alt="">
+                </div>
+                <div class="card__box--items-content">
+                    <p>Barbecue Shish kebab Shashlik Skewer</p>
+                    <h4>$12.00</h4>
+                </div>
+            </div>
+            <div class="card__box--items">
+                <div class="card__box--items-img">
+                    <img src="./images/sendwich-yonidagi.svg" alt="">
+                </div>
+                <div class="card__box--items-content">
+                    <p>Barbecue Shish kebab Shashlik Skewer</p>
+                    <h4>$12.00</h4>
+                </div>
+            </div>
+            <div class="card__box--items">
+                <div class="card__box--items-img">
+                    <img src="./images/gamburger.svg" alt="">
+                </div>
+                <div class="card__box--items-content">
+                    <p>Barbecue Shish kebab Shashlik Skewer</p>
+                    <h4>$12.00</h4>
+                </div>
+            </div>
+            <div class="card__box--items">
+                <div class="card__box--items-img">
+                    <img src="./images/XotDog.svg" alt="">
+                </div>
+                <div class="card__box--items-content">
+                    <p>Barbecue Shish kebab Shashlik Skewer</p>
+                    <h4>$12.00</h4>
+                </div>
+            </div>
+            <div class="card__box--items">
+                <div class="card__box--items-img">
+                    <img src="./images/yana-shashlik.svg" alt="">
+                </div>
+                <div class="card__box--items-content">
+                    <p>Barbecue Shish kebab Shashlik Skewer</p>
+                    <h4>$12.00</h4>
+                </div>
+            </div>
+            <div class="card__box--items">
+                <div class="card__box--items-img">
+                    <img src="./images/shashlik-too.svg" alt="">
+                </div>
+                <div class="card__box--items-content">
+                    <p>Barbecue Shish kebab Shashlik Skewer</p>
+                    <h4>$12.00</h4>
+                </div>
+            </div>
+            <div class="card__box--items">
+                <div class="card__box--items-img">
+                    <img src="./images/Lanchbox 2.svg" alt="">
+                </div>
+                <div class="card__box--items-content">
+                    <p>Barbecue Shish kebab Shashlik Skewer</p>
+                    <h4>$12.00</h4>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="ap-tab-content">
+        <div class="card__box">
+        <div class="card__box--items">
+            <div class="card__box--items-img">
+                <img src="./images/Lavash.svg" alt="">
+            </div>
+            <div class="card__box--items-content">
+                <p>Barbecue Shish kebab Shashlik Skewer</p>
+                <h4>$12.00</h4>
+            </div>
+        </div>
+        <div class="card__box--items">
+            <div class="card__box--items-img">
+                <img src="./images/XotDog.svg" alt="">
+            </div>
+            <div class="card__box--items-content">
+                <p>Barbecue Shish kebab Shashlik Skewer</p>
+                <h4>$12.00</h4>
+            </div>
+        </div>
+     </div>
+      </div>
+      <div class="ap-tab-content">
+        <div class="card__box">
+        <div class="card__box--items">
+            <div class="card__box--items-img">
+                <img src="./images/sendwich-yonidagi.svg" alt="">
+            </div>
+            <div class="card__box--items-content">
+                <p>Barbecue Shish kebab Shashlik Skewer</p>
+                <h4>$12.00</h4>
+            </div>
+        </div>
+      </div>
+      </div>
+      <div class="ap-tab-content">
+        <div class="card__box">
+        <div class="card__box--items">
+            <div class="card__box--items-img">
+                <img src="./images/gamburger.svg" alt="">
+            </div>
+            <div class="card__box--items-content">
+                <p>Barbecue Shish kebab Shashlik Skewer</p>
+                <h4>$12.00</h4>
+            </div>
+        </div>
+      </div>
+      </div>
+      <div class="ap-tab-content">
+        <div class="card__box">
+            <div class="card__box--items">
+                <div class="card__box--items-img">
+                    <img src="./images/gamburger.svg" alt="">
+                </div>
+                <div class="card__box--items-content">
+                    <p>Barbecue Shish kebab Shashlik Skewer</p>
+                    <h4>$12.00</h4>
+                </div>
+            </div>
+            <div class="card__box--items">
+                <div class="card__box--items-img">
+                    <img src="./images/sendwich-yonidagi.svg" alt="">
+                </div>
+                <div class="card__box--items-content">
+                    <p>Barbecue Shish kebab Shashlik Skewer</p>
+                    <h4>$12.00</h4>
+                </div>
+            </div>
+      </div>
+    </div>
+    <div class="ap-tab-content">
+        <div class="card__box">
+            <div class="card__box--items">
+                <div class="card__box--items-img">
+                    <img src="./images/shashlik too too.svg" alt="">
+                </div>
+                <div class="card__box--items-content">
+                    <p>Barbecue Shish kebab Shashlik Skewer</p>
+                    <h4>$12.00</h4>
+                </div>
+            </div>
+            <div class="card__box--items">
+                <div class="card__box--items-img">
+                    <img src="./images/shashlik-too.svg" alt="">
+                </div>
+                <div class="card__box--items-content">
+                    <p>Barbecue Shish kebab Shashlik Skewer</p>
+                    <h4>$12.00</h4>
+                </div>
+            </div>
+            <div class="card__box--items">
+                <div class="card__box--items-img">
+                    <img src="./images/yana-shashlik.svg" alt="">
+                </div>
+                <div class="card__box--items-content">
+                    <p>Barbecue Shish kebab Shashlik Skewer</p>
+                    <h4>$12.00</h4>
+                </div>
+            </div>
+      </div>
+    </div>
+    <div class="ap-tab-content">
+        <div class="card__box">
+            <div class="card__box--items">
+                <div class="card__box--items-img">
+                    <img src="./images/pizza.svg" alt="">
+                </div>
+                <div class="card__box--items-content">
+                    <p>Barbecue Shish kebab Shashlik Skewer</p>
+                    <h4>$12.00</h4>
+                </div>
+            </div>
+            <div class="card__box--items">
+                <div class="card__box--items-img">
+                    <img src="./images/Sendwich.svg" alt="">
+                </div>
+                <div class="card__box--items-content">
+                    <p>Barbecue Shish kebab Shashlik Skewer</p>
+                    <h4>$12.00</h4>
+                </div>
+            </div>
+      </div>
+    </div>
+    <div class="ap-tab-content">
+        <div class="card__box">
+            <div class="card__box--items">
+                <div class="card__box--items-img">
+                    <img src="./images/shashlik-too.svg" alt="">
+                </div>
+                <div class="card__box--items-content">
+                    <p>Barbecue Shish kebab Shashlik Skewer</p>
+                    <h4>$12.00</h4>
+                </div>
+            </div>
+      </div>
+    </div>
+         </div>
+    </div>
+          </section>
+          <section id="testimony">
+            <div class="container">
+              <div class="testimony__container">
+                <div class="testimony__cont--top">
+                  <h6>Testimony</h6>
+                  <div class="spoon">
+                    <img src="./images/Vector.svg" alt="page" />
+                  </div>
+                  <h2>Happy customers</h2>
+                </div>
+                <div class="testimony__cont--bottom">
+                  <div id="carousel" class="owl-carousel">
+                    <div class="cards">
+                      <div class="card__title">
+                        <h3>Maria</h3>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing sit.
+                          auctor sit iaculis in arcu. Vulputate nulla lobortis
+                          mauris eget sit. Nulla scelerisque scelerisq...
+                        </p>
+                      </div>
+                      <div class="card__clock">
+                        <p><i class="uil uil-calender"></i> 06/02/2022</p>
+                        <p><i class="uil uil-clock-five"></i> 11:15</p>
+                        <p><i class="uil uil-eye"></i> 222</p>
+                      </div>
+                    </div>
+                    <div class="cards">
+                      <div class="card__title">
+                        <h3>Orif</h3>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing sit.
+                          auctor sit iaculis in arcu. Vulputate nulla lobortis
+                          mauris eget sit. Nulla scelerisque scelerisq...
+                        </p>
+                      </div>
+                      <div class="card__clock">
+                        <p><i class="uil uil-calender"></i> 06/02/2022</p>
+                        <p><i class="uil uil-clock-five"></i> 11:15</p>
+                        <p><i class="uil uil-eye"></i> 222</p>
+                      </div>
+                    </div>
+                    <div class="cards">
+                      <div class="card__title">
+                        <h3>Martia</h3>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing sit.
+                          auctor sit iaculis in arcu. Vulputate nulla lobortis
+                          mauris eget sit. Nulla scelerisque scelerisq...
+                        </p>
+                      </div>
+                      <div class="card__clock">
+                        <p><i class="uil uil-calender"></i> 06/02/2022</p>
+                        <p><i class="uil uil-clock-five"></i> 11:15</p>
+                        <p><i class="uil uil-eye"></i> 222</p>
+                      </div>
+                    </div>
+                    <div class="cards">
+                      <div class="card__title">
+                        <h3>Flex</h3>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing sit.
+                          auctor sit iaculis in arcu. Vulputate nulla lobortis
+                          mauris eget sit. Nulla scelerisque scelerisq...
+                        </p>
+                      </div>
+                      <div class="card__clock">
+                        <p><i class="uil uil-calender"></i> 06/02/2022</p>
+                        <p><i class="uil uil-clock-five"></i> 11:15</p>
+                        <p><i class="uil uil-eye"></i> 222</p>
+                      </div>
+                    </div>
+                    <div class="cards">
+                      <div class="card__title">
+                        <h3>Martin</h3>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing sit.
+                          auctor sit iaculis in arcu. Vulputate nulla lobortis
+                          mauris eget sit. Nulla scelerisque scelerisq...
+                        </p>
+                      </div>
+                      <div class="card__clock">
+                        <p><i class="uil uil-calender"></i> 06/02/2022</p>
+                        <p><i class="uil uil-clock-five"></i> 11:15</p>
+                        <p><i class="uil uil-eye"></i> 222</p>
+                      </div>
+                    </div>
+                    <div class="cards">
+                      <div class="card__title">
+                        <h3>Grid</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing sit.
+                            auctor sit iaculis in arcu. Vulputate nulla lobortis
+                            mauris eget sit. Nulla scelerisque scelerisq...
+                          </p>
+                        </div>
+                        <div class="card__clock">
+                          <p><i class="uil uil-calender"></i> 06/02/2022</p>
+                          <p><i class="uil uil-clock-five"></i> 11:15</p>
+                          <p><i class="uil uil-eye"></i> 222</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="qaychi">
+                      <img src="./images/qaychi.svg" alt="page" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section id="new">
+              <div class="container">
+                <div class="new__container">
+                    <div class="new__container--content">
+                        <h6>News</h6>
+                        <img src="./images/Vector (1).svg" alt="">
+                        <h2>Gerícht updates</h2>
+                    </div>
+                    <div class="new__container--cards">
+                        <div class="gericht__cards-item">
+                            <img src="./images/meat.svg" alt="">
+                            <div class="gericht__cards-content">
+                                <h3>
+                                    tips for prepping and caring for your grill
+                                  </h3>
+                                  <p>
+                                    
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Volutpat mattis ipsum turpis elit elit scelerisque egestas mus
+                  in.
+                                  </p>
+                                  <div class="gericht__card d-flex justify-content-between">
+                                    <a href="#">Read More</a>
+                                    <p class="m-0">16 Apr 2021</p>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="gericht__cards-item">
+                            <img src="./images/meat.svg" alt="">
+                            <div class="gericht__cards-content">
+                                <h3>
+                                    tips for prepping and caring for your grill
+                                  </h3>
+                                  <p>
+                                    
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Volutpat mattis ipsum turpis elit elit scelerisque egestas mus
+                  in.
+                                  </p>
+                                  <div class="gericht__card d-flex justify-content-between">
+                                    <a href="#">Read More</a>
+                                    <p class="m-0">16 Apr 2021</p>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="gericht__cards-item">
+                            <img src="./images/meat.svg" alt="">
+                            <div class="gericht__cards-content">
+                                <h3>
+                                    tips for prepping and caring for your grill
+                                  </h3>
+                                  <p>
+                                    
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Volutpat mattis ipsum turpis elit elit scelerisque egestas mus
+                  in.
+                                  </p>
+                                  <div class="gericht__card d-flex justify-content-between">
+                                    <a href="#">Read More</a>
+                                    <p class="m-0">16 Apr 2021</p>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn__next">
+                        <button>
+                            View More
+                        </button>
+                    </div>
+                </div>
+              </div>
+            </section>
+            <section id="video">
+              <div class="container">
+                <!-- <button type="button" class="iframe">
+                  <img src="./images/Polygon 2.svg" alt="">
+                </button> -->
+                 <!-- Button trigger modal -->
+<button type="button" class="iframe btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  <img src="./images/Polygon 2.svg" alt="">
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="md__header modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">
+          <img src="./images/Logo .svg" alt="">
+        </h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <video width="460px" height="350px" controls>
+          <source src="./video/turkish.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="md__footer modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<section id="instagram">
+  <div class="container">
+    <div class="instagram__container">
+      <div class="insta__cont--left">
+        <h6>Instagram</h6>
+        <div class="spoon">
+          <img src="./images/Vector (1).svg" alt="page" />
+        </div>
+        <h2>Photo Gallery</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.
+        </p>
+        <div class="insta__button">
+          <button>View More</button>
+        </div>
+      </div>
+      <div class="insta__cont--right">
+        <div id="insta" class="owl-carousel">
+          <div class="owl-carousel-img">
+            <img src="./images/1.svg" alt="page" />
+            <div class="icon">
+              <i class="uil uil-instagram"></i>
+            </div>
+          </div>
+          <div class="owl-carousel-img">
+            <img src="./images/acos-2.svg" alt="page" />
+            <div class="icon">
+              <i class="uil uil-instagram"></i>
+            </div>
+          </div>
+          <div class="owl-carousel-img">
+            <img src="./images/carousel-3.svg" alt="page" />
+            <div class="icon">
+              <i class="uil uil-instagram"></i>
+            </div>
+          </div>
+          <div class="owl-carousel-img">
+            <img src="./images/1.svg" alt="page" />
+            <div class="icon">
+              <i class="uil uil-instagram"></i>
+            </div>
+          </div>
+          <div class="owl-carousel-img">
+            <img src="./images/acos-2.svg" alt="page" />
+            <div class="icon">
+              <i class="uil uil-instagram"></i>
+            </div>
+          </div>
+          <div class="owl-carousel-img">
+            <img src="./images/carousel-3.svg" alt="page" />
+            <div class="icon">
+              <i class="uil uil-instagram"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+            <section id="news">
+              <div class="container">
+                <div class="news__container">
+                  <div class="news__con--content">
+                    <p>Newsletter</p>
+                    <h2>Subscribe to Our Newsletter</h2>
+                    <span>And never miss latest Updates!</span>
+                    <div class="news__con--email">
+                      <form action="#">
+                        <input placeholder="Email Address" id="email" type="email" name="email">
+                        <input required id="submit" type="submit" name="submit" value="Subscribe">
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+        </main>
+        <footer>
+          <section id="last">
+            <div class="container">
+              <div class="footer__conatiner">
+                <div class="footer__container--box">
+                  <div class="items__first">
+                    <p class="p1">
+                      Contact Us
+                    </p>
+                    <p class="p2">
+                      9 W 53rd St, London, NY 10019, UK
+                    </p>
+                    <p class="p3">
+                      +1 212-344-1230 
+                      <br>
+                      +1 212-555-1230
+                    </p>
+                  </div>
+                  <div class="items__second">
+                    <div class="last__logo">
+                       <img src="./images/bigger-logo.svg" alt="">
+                    </div>
+                    <p class="p4">
+                  "The best way to find yourself is to lose yourself in the
+                  <br>
+                  service of others.”
+                    </p>
+                    <div class="footer__icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                      </svg>
+                    </div>
+                    <div class="oxir">
+                      <p>2022 Pop online. All Rights reserved.</p>
+                    </div>
+                  </div>
+                  <div class="items__last">
+                    <p class="p5">
+                      Working Hours
+                    </p>
+                    <p class="p6">
+                      Monday-Friday: 
+                      <br>
+                      08:00 am -12:00 am
+                    </p>
+                    <p class="p7">
+                      Saturday-Sunday: 
+                      <br>
+                      07:00am -11:00 pm
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </footer>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script
+   src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+   integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+   crossorigin="anonymous"
+   referrerpolicy="no-referrer"
+ ></script>
+ <script
+   src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+   integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+   crossorigin="anonymous"
+   referrerpolicy="no-referrer"
+ ></script>
+ <script>
+    $(document).ready(function () {
+      $("#dishes .owl-carousel").owlCarousel({
+        loop: true,
+        nav: true,
+        margin: 20,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          700: {
+            items: 2,
+          },
+          1000: {
+            items: 3,
+          },
+          1285: {
+            items: 4,
+          },
+        },
+      });
+    });
+    
+  </script>
+<script>
+    $(document).ready(function () {
+      $("#testimony .owl-carousel").owlCarousel({
+        loop: true,
+        nav: true,
+        margin: 10,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          700: {
+            items: 2,
+          },
+          1000: {
+            items: 3,
+          },
+        },
+      });
+    });
+  </script>
+<script>
+  $('.inss_corousel').owlCarousel({
+    items:3,
+    loop:false,
+    center:true,
+    URLhashListener:true,
+    autoplayHoverPause:true,
+    startPosition: 'URLHash'
+  });
+</script>
+<script>
+  $(document).ready(function () {
+    $("#instagram .owl-carousel").owlCarousel({
+      loop: true,
+      nav: false,
+      dots: false,
+      margin: 32,
+      responsiveClass: true,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        300: {
+          items: 1,
+        },
+        700: {
+          items: 1.7,
+        },
+        1000: {
+          items: 1.7,
+        },
+      },
+    });
+  });
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Inter", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "PLUS Rounded", sans-serif;
+  scroll-behavior: smooth;
+}
+
+*,
+* ::after,
+* ::before {
+  box-sizing: border-box;
+}
+
+.conteiner {
+  max-width: 1340px;
+  margin: 0 auto;
+  padding: 0px 10px;
+}

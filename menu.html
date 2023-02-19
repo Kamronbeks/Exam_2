@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/compressed/menu.min.css" />
+  </head>
+  <body>
+    <button id="backtop">
+      <a href="#">Up</a>
+    </button>
+    <header>
+      <nav
+        class="navbar navbar-expand-md bg-body-tertiary fixed-top"
+        id="navbar"
+      >
+        <div class="container navbar-colos">
+          <a class="navbar-brand" href="./index.html"
+            ><img src="./images/Logo .svg" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+          >
+            <span><img src="./images/navbar/hamburger.svg" alt="" /></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                <img src="./images/navbar/logo.png" alt="" />
+              </h5>
+              <button
+                type="button"
+                data-bs-dismiss="offcanvas"
+                class="btn-close"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./menu.html"
+                    >Menu</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./news.html">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link login" href="./restaruant.html">Log in</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="menu">
+        <div class="container">
+          <div class="menu__container">
+            <div class="menu__cont--top">
+              <div class="perexod">
+                <a class="a1" href="index.html">Home |</a>
+                <a class="a2" href="menu.html">Menu</a>
+              </div>
+            </div>
+            <div class="menu__cont--bottom">
+              <div class="ap-tab">
+                <h2>Our Regular Menu Pack</h2>
+                <ul class="ap-tab-list">
+                  <li class="ap-tab-item">
+                    <a class="ap-tab-link" href="#">All</a>
+                  </li>
+                  <li class="ap-tab-item">
+                    <a class="ap-tab-link" href="#">Shawarma</a>
+                  </li>
+                  <li class="ap-tab-item">
+                    <a class="ap-tab-link" href="#">Turk Kebab</a>
+                  </li>
+                  <li class="ap-tab-item">
+                    <a class="ap-tab-link" href="#">Hamburger Kebab</a>
+                  </li>
+                  <li class="ap-tab-item">
+                    <a class="ap-tab-link" href="#">Doner kebab</a>
+                  </li>
+                  <li class="ap-tab-item">
+                    <a class="ap-tab-link" href="#">Shish kebab</a>
+                  </li>
+                  <li class="ap-tab-item">
+                    <a class="ap-tab-link" href="#">French fries Pizza</a>
+                  </li>
+                  <li class="ap-tab-item">
+                    <a class="ap-tab-link" href="#">Desserts</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="ap-tab-container">
+                <div class="ap-tab-content">
+                  <div class="menu__card">
+                    <div class="menu__card--img">
+                      <img src="./images/shashlik too too.svg" alt="page" />
+                    </div>
+                    <div class="menu__card--title">
+                      <p>Barbecue Shish kebab Shashlik Skewer</p>
+                      <h6>$12.00</h6>
+                    </div>
+                  </div>
+                  <div class="menu__card">
+                    <div class="menu__card--img">
+                      <img src="./images/shashlik-too.svg" alt="page" />
+                    </div>
+                    <div class="menu__card--title">
+                      <p>Barbecue Shish kebab Shashlik Skewer</p>
+                      <h6>$12.00</h6>
+                    </div>
+                  </div>
+                  <div class="menu__card">
+                    <div class="menu__card--img">
+                      <img src="./images/shashlik.svg" alt="page" />
+                    </div>
+                    <div class="menu__card--title">
+                      <p>Barbecue Shish kebab Shashlik Skewer</p>
+                      <h6>$12.00</h6>
+                    </div>
+                  </div>
+                  <div class="menu__card">
+                    <div class="menu__card--img">
+                      <img src="./images/shashlik too too.svg" alt="page" />
+                    </div>
+                    <div class="menu__card--title">
+                      <p>Barbecue Shish kebab Shashlik Skewer</p>
+                      <h6>$12.00</h6>
+                    </div>
+                  </div>
+                  <div class="menu__card">
+                    <div class="menu__card--img">
+                      <img src="./images/shashlik-too.svg" alt="page" />
+                    </div>
+                    <div class="menu__card--title">
+                      <p>Barbecue Shish kebab Shashlik Skewer</p>
+                      <h6>$12.00</h6>
+                    </div>
+                  </div>
+                  <div class="menu__card">
+                    <div class="menu__card--img">
+                      <img src="./images/shashlik.svg" alt="page" />
+                    </div>
+                    <div class="menu__card--title">
+                      <p>Barbecue Shish kebab Shashlik Skewer</p>
+                      <h6>$12.00</h6>
+                    </div>
+                  </div>
+                  <div class="menu__card">
+                    <div class="menu__card--img">
+                      <img src="./images/shashlik too too.svg" alt="page" />
+                    </div>
+                    <div class="menu__card--title">
+                      <p>Barbecue Shish kebab Shashlik Skewer</p>
+                      <h6>$12.00</h6>
+                    </div>
+                  </div>
+                  <div class="menu__card">
+                    <div class="menu__card--img">
+                      <img src="./images/shashlik-too.svg" alt="page" />
+                    </div>
+                    <div class="menu__card--title">
+                      <p>Barbecue Shish kebab Shashlik Skewer</p>
+                      <h6>$12.00</h6>
+                    </div>
+                  </div>
+                  <div class="menu__card">
+                    <div class="menu__card--img">
+                      <img src="./images/shashlik.svg" alt="page" />
+                    </div>
+                    <div class="menu__card--title">
+                      <p>Barbecue Shish kebab Shashlik Skewer</p>
+                      <h6>$12.00</h6>
+                    </div>
+                  </div>
+                  <div class="menu__card">
+                    <div class="menu__card--img">
+                      <img src="./images/shashlik too too.svg" alt="page" />
+                    </div>
+                    <div class="menu__card--title">
+                      <p>Barbecue Shish kebab Shashlik Skewer</p>
+                      <h6>$12.00</h6>
+                    </div>
+                  </div>
+                  <div class="menu__card">
+                    <div class="menu__card--img">
+                      <img src="./images/shashlik-too.svg" alt="page" />
+                    </div>
+                    <div class="menu__card--title">
+                      <p>Barbecue Shish kebab Shashlik Skewer</p>
+                      <h6>$12.00</h6>
+                    </div>
+                  </div>
+                  <div class="menu__card">
+                    <div class="menu__card--img">
+                      <img src="./images/shashlik.svg" alt="page" />
+                    </div>
+                    <div class="menu__card--title">
+                      <p>Barbecue Shish kebab Shashlik Skewer</p>
+                      <h6>$12.00</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="ap-tab-content">
+                  <div class="menu__card">
+                    <div class="menu__card--img">
+                      <img src="images/shashlik too too.svg" alt="page" />
+                    </div>
+                    <div class="menu__card--title">
+                      <p>Barbecue Shish kebab Shashlik Skewer</p>
+                      <h6>$12.00</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="ap-tab-content">
+                  <div class="menu__card">
+                    <div class="menu__card--img">
+                      <img src="./images/shashlik too too.svg" alt="page" />
+                    </div>
+                    <div class="menu__card--title">
+                      <p>Barbecue Shish kebab Shashlik Skewer</p>
+                      <h6>$12.00</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="ap-tab-content">
+                  <div class="menu__card">
+                    <div class="menu__card--img">
+                      <img src="./images/shashlik-too.svg" alt="page" />
+                    </div>
+                    <div class="menu__card--title">
+                      <p>Barbecue Shish kebab Shashlik Skewer</p>
+                      <h6>$12.00</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="ap-tab-content">
+                  <div class="menu__card">
+                    <div class="menu__card--img">
+                      <img src="./images/shashlik.svg" alt="page" />
+                    </div>
+                    <div class="menu__card--title">
+                      <p>Barbecue Shish kebab Shashlik Skewer</p>
+                      <h6>$12.00</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="ap-tab-content">
+                  <div class="menu__card">
+                    <div class="menu__card--img">
+                      <img src="./images/shashlik too too.svg" alt="page" />
+                    </div>
+                    <div class="menu__card--title">
+                      <p>Barbecue Shish kebab Shashlik Skewer</p>
+                      <h6>$12.00</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="ap-tab-content">
+                  <div class="menu__card">
+                    <div class="menu__card--img">
+                      <img src="./images/shashlik-too.svg" alt="page" />
+                    </div>
+                    <div class="menu__card--title">
+                      <p>Barbecue Shish kebab Shashlik Skewer</p>
+                      <h6>$12.00</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="ap-tab-content">
+                  <div class="menu__card">
+                    <div class="menu__card--img">
+                      <img src="./images/shashlik.svg" alt="page" />
+                    </div>
+                    <div class="menu__card--title">
+                      <p>Barbecue Shish kebab Shashlik Skewer</p>
+                      <h6>$12.00</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="instagram">
+        <div class="container">
+          <div class="instagram__container">
+            <div class="insta__cont--left">
+              <h6>Instagram</h6>
+              <div class="spoon">
+                <img src="./images/Vector (1).svg" alt="page" />
+              </div>
+              <h2>Photo Gallery</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.
+              </p>
+              <div class="insta__button">
+                <button>View More</button>
+              </div>
+            </div>
+            <div class="insta__cont--right">
+              <div id="insta" class="owl-carousel">
+                <div class="owl-carousel-img">
+                  <img src="./images/1.svg" alt="page" />
+                  <div class="icon">
+                    <i class="uil uil-instagram"></i>
+                  </div>
+                </div>
+                <div class="owl-carousel-img">
+                  <img src="./images/acos-2.svg" alt="page" />
+                  <div class="icon">
+                    <i class="uil uil-instagram"></i>
+                  </div>
+                </div>
+                <div class="owl-carousel-img">
+                  <img src="./images/carousel-3.svg" alt="page" />
+                  <div class="icon">
+                    <i class="uil uil-instagram"></i>
+                  </div>
+                </div>
+                <div class="owl-carousel-img">
+                  <img src="./images/1.svg" alt="page" />
+                  <div class="icon">
+                    <i class="uil uil-instagram"></i>
+                  </div>
+                </div>
+                <div class="owl-carousel-img">
+                  <img src="./images/acos-2.svg" alt="page" />
+                  <div class="icon">
+                    <i class="uil uil-instagram"></i>
+                  </div>
+                </div>
+                <div class="owl-carousel-img">
+                  <img src="./images/carousel-3.svg" alt="page" />
+                  <div class="icon">
+                    <i class="uil uil-instagram"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="newsletter">
+        <div class="container">
+          <div class="newsletter__container">
+            <div class="newsletter__cont--title">
+              <h6>Newsletter</h6>
+              <h2>Subscribe to Our Newsletter</h2>
+              <p>And never miss latest Updates!</p>
+              <div class="newsletter__cont--input">
+                <form action="#">
+                  <input
+                    required
+                    placeholder="Email Address"
+                    id="email"
+                    type="email"
+                    name="email"
+                  />
+                  <input
+                    required
+                    id="submit"
+                    type="submit"
+                    name="submit"
+                    value="Subscribe"
+                  />
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <section id="footer">
+        <div class="container">
+          <div class="footer__container">
+            <div class="footer__cont--top">
+              <div class="footer-1">
+                <p class="p1">Contact Us</p>
+                <p class="p2">9 W 53rd St, London, NY 10019, UK</p>
+                <p class="p3">+1 212-344-1230 <br />+1 212-555-1230</p>
+              </div>
+              <div class="footer-2">
+                <div class="footer--logo">
+                  <img src="./images/bigger-logo.svg" alt="page" />
+                </div>
+                <p class="p4">
+                  "The best way to find yourself is to lose yourself in the
+                  <br />service of others.”
+                </p>
+                <div class="footer--icons">
+                  <i class="uil uil-facebook-f"></i>
+                  <i class="uil uil-twitter"></i>
+                  <i class="uil uil-instagram"></i>
+                </div>
+              </div>
+              <div class="footer-3">
+                <p class="p5">Working Hours</p>
+                <p class="p6">Monday-Friday: <br />08:00 am -12:00 am</p>
+                <p class="p7">Saturday-Sunday: <br />07:00am -11:00 pm</p>
+              </div>
+            </div>
+            <div class="footer__cont--bottom">
+              <p>2022 Pop online. All Rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+      integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/gh/abdulazizcreator/ap-tab/main.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#instagram .owl-carousel").owlCarousel({
+          loop: true,
+          nav: false,
+          dots: false,
+          margin: 32,
+          responsiveClass: true,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            300: {
+              items: 1,
+            },
+            700: {
+              items: 1.7,
+            },
+            1000: {
+              items: 1.7,
+            },
+          },
+        });
+      });
+    </script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
